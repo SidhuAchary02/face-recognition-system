@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&family=Poppins:wght@200&family=Quicksand&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    background:linear-gradient(90deg,#1acdd2 0,#1d589a 0,#1acdd2);
+    height: auto;
+    height: 100vh;
+    justify-content: center;
+}
+
+.section{
+    height:80vh;
+    max-width: 620px;
+    margin: auto;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+}
+
+.section h2{
+    margin: 10px 23px;
+    font-size:34px;
+    font-weight:800;
+    color:#1d589a;
+}
+
+.section .contact-container{
+    margin: 0 40px;
+}
+
+.section .contact-container .text{
+    font-weight:620;
+}
+
+.contact-container .name{
+    margin: 16px 0px 0px 0px;
+}
+
+.contact-container p{
+    letter-spacing:.9px;
+    font-size:13px;
+}
+
+.contact-container button{
+    padding:6px 19px;
+    margin: 20px 0px;
+    background:linear-gradient(90deg,#1acdd2 0,#1d589a 0,#1acdd2);
+    border:none;
+    border-radius:4px;
+    color:white;
+    transform:scale(1.06);
+    cursor: pointer;
+}
+
+.contact-container button:hover{
+    transition:2.3s ease-in;
+}
+
+.butn log-btn a{
+    padding:6px 19px;
+    margin: 20px 0px;
+    background:linear-gradient(90deg,#1acdd2 0,#1d589a 0,#1acdd2);
+    border:none;
+    text-decoration:none;
+    border-radius:4px;
+    color:white;
+    transform:scale(1.06);
+    cursor: pointer;
+}
+
+/* footer */
+footer{
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding:0px;
+    width: 100%;
+    color:#fff;
+}
+
+.main-content{
+    display: flex;
+    background-color: #333;
+}
+
+.main-content .bix{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.bix h2{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color:#1acdd2;
+    text-transform: uppercase;
+}
+
+.bix .context{
+    margin: 20px 0 0 0;
+}
+
+.bix .context .place .text{
+    text-transform:uppercase;
+    padding:0px 5px;
+    font-size:16px;
+    color:#fff;
+}
+
+.bix .context .place span{
+    color:#1acdd2;
+}
+
+.place span i{
+    color:#1acdd2;
+}
+
+.context p{
+    left:0px 5px;
+}
+
+.context .phone span i{
+    width:20px;
+    text-transform:uppercase;
+    color:#1acdd2;
+}
+
+
+.left .context p{
+    text-align: justify;
+    font-size:15px;
+    padding:8px;
+}
+
+.left .context .social{
+    margin: 20px 0 0 0 ;
+}
+
+.email span i{
+    color: #1acdd2;
+    padding:0 3px;
+}
+
+.center .context a{
+    text-decoration:none;
+    color:#fff;
+    display:flex;
+    padding-bottom:2.5px;
+}
+.center .context a:hover{
+    color: #1acdd2;    
+}
+
+
+.center .context a:hover{
+    color:#1acdd2;    
+}
+
+.right .context button{
+    padding:3px 10px;
+    background-color:#1acdd2;
+    border-radius:3px;
+    border:none;
+    transition:0.1s ease;
+}
+
+.right .context button{
+    background-color:white;
+    transform:scale(1.02);
+}
+
+.copyright{
+    color: #fff;
+    background-color: #5d5d5d;
+    display: flex;
+    margin:0px;
+    padding:13px 10px;
+    justify-content:space-between;
+}
+
+.copyright .claims a{
+    text-decoration:none;
+    color:#fff;
+    font-weight:700;
+    color:#1acdd2;
+    transition:0.1s ease;
+}
+
+.copyright .claims a:hover{
+    transform:scale(1.4);
+}
+
+.copyright .social {
+    padding-right:30px;
+}
+
+.copyright .social a{
+    color: #1acdd2;
+    margin:0 5px;
+}
+
+@media(max-width:700px){
+    .copyright{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .copyright .social{
+        margin-top:14px;
+    }
+}
+
+@media(max-width:800px){
+    .main-content{
+        display:flex;
+        flex-direction:column;
+    }
+}
